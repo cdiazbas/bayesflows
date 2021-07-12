@@ -1,5 +1,9 @@
-# Install first the library pymilne - https://github.com/aasensio/milne, emcee and corner.
+# Simple case: Milne-Eddington atmosphere.
 
-# bayes_inversion: conditional normalizing flows for spectropolarimetric inversions
-# mcmc: produces samples from an MCMC code
-# bayes_inversion_datasize: cflows for the datasize experiment
+- The generation of the database requires the installation of  `pymilne` - https://github.com/aasensio/milne, `nflows` - https://github.com/bayesiains/nflows, `emcee` - https://github.com/dfm/emcee and `corner` - https://github.com/dfm/corner.py.
+
+
+## Training and results
+- `bayes_inversion.py`: creates conditional normalizing flows for spectropolarimetric inversions
+- `mcmc.py`: produces samples from an MCMC code
+- `bayes_inversion_datasize.py`: cflows for the datasize experiment

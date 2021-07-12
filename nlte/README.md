@@ -1,10 +1,15 @@
+# Complex case: NLTE with stratification.
 
-# AEcontext: Autoencoder for the context params (Stokes profiles)
-# AEdataset: Autoencoder for the output params (Physical quantities)
+- The generation of the database requires the installation of  `STiC` - https://github.com/jaimedelacruz/stic, `nflows` - https://github.com/bayesiains/nflows, and `corner` - https://github.com/dfm/corner.py.
 
-# bayes_inversion: conditional normalizing flows for spectropolarimetric inversions
-# bayes_inversion_encode_dataset: cflows using AE in output params
-# forwardnet: ResNet to mimic the forward process (from physical params to Stokes)
-# bayes_plot: produces all the plots
+## Training and results
 
-# nde_ae,nde_cvae,nde_nflow,nde_utils contain all the definitions of autoencoders and normalizing flows
+- `AEcontext.py`: Autoencoder for the context params (Stokes profiles)
+- `AEdataset.py`: Autoencoder for the output params (Physical quantities)
+
+- `bayes_inversion.py`: conditional normalizing flows for spectropolarimetric inversions
+- `bayes_inversion_encode_dataset.py`: cflows using AE in output params
+- `forwardnet.py`: ResNet to mimic the forward process (from physical params to Stokes)
+- `bayes_plot.py`: produces all the plots
+
+- `nde_ae.py`, `nde_cvae.py`, `nde_nflow.py`, s`nde_utils.py` contain all the definitions of autoencoders and normalizing flows
