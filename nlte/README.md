@@ -1,6 +1,6 @@
 # Complex case: NLTE with stratification.
 
-- The generation of the database requires the installation of  `STiC` - https://github.com/jaimedelacruz/stic, `nflows` - https://github.com/bayesiains/nflows, and `corner` - https://github.com/dfm/corner.py.
+- The generation of the database requires the installation of `STiC` - https://github.com/jaimedelacruz/stic, `nflows` - https://github.com/bayesiains/nflows, and `corner` - https://github.com/dfm/corner.py.
 
 ## Training and results
 
