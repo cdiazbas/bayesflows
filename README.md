@@ -1,6 +1,10 @@
 # Bayesian Stokes inversion with Normalizing flows
 
-This repository contains the code to perform Bayesian inference of the solar atmosphere using normalizing flows, producing posterior distribution of solar physical parameters conditioned on observed Stokes parameters. It is described in the paper that you can find in [https://arxiv.org/abs/2108.07089](https://arxiv.org/abs/2108.07089).
+This repository contains the code to perform Bayesian inference of the solar atmosphere using normalizing flows, producing the posterior distribution of solar physical parameters from observed Stokes parameters ([https://arxiv.org/abs/2108.07089](https://arxiv.org/abs/2108.07089)).
+
+
+> A simple tutorial on the application of normalizing flows in a linear regression problem and comparison with an MCMC method has been added in the following [notebook](https://github.com/cdiazbas/bayesflows/nflows_example.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cdiazbas/bayesflows/nflows_example.ipynb)
+
 
 
 <!-- ![example](milne/milne.png?raw=true "") -->
